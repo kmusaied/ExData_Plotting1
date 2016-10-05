@@ -12,9 +12,9 @@ x<-merge(x2,x3,all = TRUE)
 #remove temp vars
 rm(x2,x3)
 #convert column to char
-x$Global_active_power <- as.character(x5$Global_active_power)
+x$Global_active_power <- as.character(x$Global_active_power)
 #convert column to number 
-x$Global_active_power <- as.numeric(x5$Global_active_power)
+x$Global_active_power <- as.numeric(x$Global_active_power)
 # opening device 
 png(filename="plot1.png")
 # printing plot
