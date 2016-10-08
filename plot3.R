@@ -1,4 +1,4 @@
-plot1 <- function(runSetup=TRUE,export2Png = TRUE)
+plot3 <- function(runSetup=TRUE,export2Png = TRUE)
 {
         source('setup.R')
         if(runSetup){
